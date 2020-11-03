@@ -1,0 +1,29 @@
+.features {
+  height: 350px;
+  background-color: var(--light-color);
+}
+
+.features .flex {
+  flex-wrap: wrap;
+}
+.features .card {
+  text-align: center;
+  height: 270px;
+  width: 250px;
+  margin: 0 40px;
+  transition: transform 0.2s ease-in;
+}
+.features .card h3 {
+  margin-top: 20px;
+}
+.features .card p {
+  padding: 15px;
+}
+
+.features .card:hover {
+  transform: translateY(-18px);
+}
+
+.features .card i {
+  color: var(--secondary-color);
+}

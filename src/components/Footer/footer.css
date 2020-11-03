@@ -1,0 +1,13 @@
+.footer {
+  background-color: var(--dark-color);
+  height: 250px;
+  color: #fff;
+}
+
+.footer .grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer h4 {
+  margin-bottom: 15px;
+}

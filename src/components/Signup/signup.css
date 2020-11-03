@@ -1,0 +1,22 @@
+.signup {
+  text-align: center;
+}
+.signup .form-control {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.signup .form-control input {
+  border: 0;
+  border-bottom: 1px solid #b4becb;
+  width: 80%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.signup .form-control input:focus {
+  outline: none;
+}

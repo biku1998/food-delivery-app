@@ -1,0 +1,46 @@
+.appbar {
+  background-color: var(--primary-color);
+  color: #fff;
+  height: 70px;
+}
+
+.appbar .container {
+  max-width: 1300px;
+}
+
+.appbar .flex {
+  justify-content: space-between;
+}
+
+.appbar nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.appbar nav ul li i {
+  padding: 10px;
+}
+.appbar nav ul li {
+  display: flex;
+  padding: 10px;
+  font-size: 1rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.appbar ul li button {
+  color: #fff;
+  width: 150px;
+  padding: 10px;
+  margin: 0 5px;
+  font-size: large;
+}
+
+.appbar .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appbar .logo i {
+  margin-right: 10px;
+}
