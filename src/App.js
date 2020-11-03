@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/food-delivery-app/">
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/restaurants" exact component={Restaurants} />
