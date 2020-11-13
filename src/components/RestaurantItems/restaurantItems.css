@@ -1,7 +1,10 @@
 .restaurantItems .grid {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .restaurantItems .container {
-  max-width: 1200px;
+  max-width: 1500px;
+  overflow: hidden;
+  padding-top: 20px;
+  margin-top: 20px;
 }

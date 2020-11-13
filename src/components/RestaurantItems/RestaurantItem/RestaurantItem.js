@@ -1,21 +1,27 @@
 import "./restaurantItem.css";
 
 import React from "react";
-import StarRating from "../../UI/StarRating/StarRating";
+import Rating from "../../UI/Rating/Rating";
+import FoodTypeIndicator from "../../UI/FoodTypeIndicator/FoodTypeIndicator";
 
 const RestaurantItem = (props) => {
   const { restaurant } = props;
+
   return (
     <div className="restaurantItem">
       <div className="card">
         <div className="grid">
           <img src={restaurant.logo_url} alt={`${restaurant.name}_logo`} />
           <h3>{restaurant.name}</h3>
-          <StarRating rating={restaurant.reviews} />
-          {/* <span>{restaurant.reviews}</span> */}
+          <Rating rating={restaurant.rating} />
           <p>{restaurant.about}</p>
-          <span>{restaurant.type}</span>
-          <button className="btn">View menu</button>
+          <FoodTypeIndicator type={restaurant.type} />
+          <button
+            className="btn"
+            onClick={() => props.menuOpenClickHandler(restaurant.id)}
+          >
+            View menu
+          </button>
         </div>
       </div>
     </div>

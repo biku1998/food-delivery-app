@@ -1,0 +1,13 @@
+.rating {
+  display: inline-block;
+  padding: 5px 0px;
+  background-color: #f4f4f4;
+  color: #fff;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.rating i {
+  margin-right: 5px;
+}

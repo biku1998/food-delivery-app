@@ -1,0 +1,18 @@
+.menu-item .card {
+  border-radius: 0;
+}
+.menu-item .card .grid .flex {
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu-item .card .grid .btn {
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.menu-item .card .grid .btn:hover {
+  background-color: rgb(128, 135, 143);
+  color: #fff;
+}

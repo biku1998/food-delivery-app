@@ -1,0 +1,63 @@
+.restaurant-menu .showcase {
+  background-color: #f4f4f4;
+  color: #333;
+  height: 280px;
+  padding-top: 10px;
+}
+
+.restaurant-menu .showcase .container {
+  height: 250px;
+  max-width: 1400px;
+}
+
+.restaurant-menu .showcase .flex {
+  justify-content: space-between;
+  align-items: center;
+  overflow: visible;
+}
+
+.restaurant-menu .showcase .logo {
+  height: 165px;
+  width: 230px;
+  object-fit: fill;
+}
+
+.restaurant-menu .showcase .info :nth-child(2) {
+  width: 100px;
+}
+
+.restaurant-menu .showcase .vector-display {
+  height: 260px;
+  width: 340px;
+  object-fit: fill;
+}
+
+.restaurant-menu .items-cart .grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.restaurant-menu .items-cart .grid > *:first-child {
+  grid-column: 1 / span 3;
+}
+
+.restaurant-menu .items-cart .grid > *:last-child {
+  height: 100%;
+  /* position: fixed;
+  right: 0; */
+}
+
+.restaurant-menu .items-cart .cart .card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 0;
+}
+
+.restaurant-menu .items-cart .cart .card .checkout-btn {
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #60b246;
+  margin-top: 20px;
+}

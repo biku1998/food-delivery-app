@@ -21,16 +21,21 @@
 .restaurantItem .card .grid img {
   width: 100%;
   height: 200px;
+  object-fit: cover;
 }
 
 .restaurantItem .card .btn {
   width: 130px;
 }
 
-/* .restaurantItem .card {
-  transition: all 0.2s ease-in;
-} */
+.restaurantItem .card {
+  transition: all 0.2s ease-in-out;
+}
 
-/* .restaurantItem .card:hover {
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-} */
+.restaurantItem .card:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.restaurantItem .card .type {
+  opacity: 0.4;
+}
